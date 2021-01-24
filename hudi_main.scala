@@ -54,10 +54,9 @@ val sourceBucket 							 	= "my-s3-sourcebucket";
 val targetSubFolder 						= "HUDI_DATA";
 val sourceSubFolder 						= "GG_DATA";
 
-val inputTableName 									= "ORDERS";
+val inputTableName 							= "ORDERS";
 
-//val sourceSystem 								= "SALES_SYSTEM";
-val sourceSystem 								= "dummy";
+val sourceSystem 								= "SALES_SYSTEM";
 
 var admittedValues:ListBuffer[String] = ListBuffer[String]();
 
