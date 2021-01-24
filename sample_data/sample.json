@@ -1,0 +1,83 @@
+{
+   "table":"MY_SCHEMA.ORDERS",
+   "op_type":"I",
+   "op_ts":"2021-01-06 05:14:52.000000",
+   "current_ts":"2021-01-06T05:15:05.278009",
+   "pos":"00000002890245751629",
+   "primary_keys":[
+      "COD_COMPANY",
+      "ID_ORDER"
+   ],
+   "tokens":{
+      "SYSTEM":"SALES_SYSTEM"
+   },
+   "before":null,
+   "after":{
+      "MY_SCHEMA.columns":{
+         "COD_COMPANY":{"string": "01"},
+         "COD_COMPANY_isMissing":{"boolean": false},
+         "ID_ORDER":{"long": 192},
+         "ID_ORDER_isMissing":{"boolean": false},
+         "COD_CUSTOMER":{"long": 202},
+         "COD_CUSTOMER_isMissing":{"boolean": false},
+         "DAT_ORDER":{"string": "2021-01-06 05:14:49"},
+         "DAT_ORDER_isMissing":{"boolean": false},
+         "NUM_QTY_ORDERED":{"long": 34},
+         "NUM_QTY_ORDERED_isMissing":{"boolean": false},
+         "AMT_ORDER_EUR":{"double": 1820.25},
+         "AMT_ORDER_EUR_isMissing":{"boolean": false},
+         "TMS_LAST_MODIFIED":{"string": "2021-01-06 05:14:52"},
+         "TMS_LAST_MODIFIED_isMissing":{"boolean": false}
+      }
+   }
+}
+{
+   "table":"MY_SCHEMA.ORDERS",
+   "op_type":"U",
+   "op_ts":"2021-01-06 05:14:52.000000",
+   "current_ts":"2021-01-06T05:15:05.279000",
+   "pos":"00000002890245752005",
+   "primary_keys":[
+      "COD_COMPANY",
+      "ID_ORDER"
+   ],
+   "tokens":{
+      "SYSTEM":"SALES_SYSTEM"
+   },
+   "before":{
+      "MY_SCHEMA.columns":{
+         "COD_COMPANY":{"string": "01"},
+         "COD_COMPANY_isMissing":{"boolean": false},
+         "ID_ORDER":{"long": 155},
+         "ID_ORDER_isMissing":{"boolean": false},
+         "COD_CUSTOMER":{"long": 14},
+         "COD_CUSTOMER_isMissing":{"boolean": false},
+         "DAT_ORDER":{"string": "2020-12-18 09:00:01"},
+         "DAT_ORDER_isMissing":{"boolean": false},
+         "NUM_QTY_ORDERED":{"long": 2},
+         "NUM_QTY_ORDERED_isMissing":{"boolean": false},
+         "AMT_ORDER_EUR":{"double":  60.0},
+         "AMT_ORDER_EUR_isMissing":{"boolean": false},
+         "TMS_LAST_MODIFIED":{"string": "2020-12-18 09:00:02"},
+         "TMS_LAST_MODIFIED_isMissing":{"boolean": false}
+      }
+   },
+   "after":{
+      "MY_SCHEMA.columns":{
+         "COD_COMPANY":{"string": "01"},
+         "COD_COMPANY_isMissing":{"boolean": false},
+         "ID_ORDER":{"long": 155},
+         "ID_ORDER_isMissing":{"boolean": false},
+         "COD_CUSTOMER":{"long": 14},
+         "COD_CUSTOMER_isMissing":{"boolean": false},
+         "DAT_ORDER":{"string": "2020-12-18 09:00:01"},
+         "DAT_ORDER_isMissing":{"boolean": false},
+         "NUM_QTY_ORDERED":{"long": 3},
+         "NUM_QTY_ORDERED_isMissing":{"boolean": false},
+         "AMT_ORDER_EUR":{"double": 90.0},
+         "AMT_ORDER_EUR_isMissing":{"boolean": false},
+         "TMS_LAST_MODIFIED":{"string": "2021-01-06 05:14:52"},
+         "TMS_LAST_MODIFIED_isMissing":{"boolean": false}
+      }
+   }
+}
