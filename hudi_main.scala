@@ -41,11 +41,11 @@ val pkFieldName									= "primary_keys";
 // glue/hive database name
 val hiveDbName             		 	= "sales_db";
 
-// Hudi field to be added for partition purposes
+// source field to be used for partitioning
 val partitionFieldName			 		= "DAT_ORDER";
 val partitionFieldPattern				= "yyyy-MM-dd";
 
-// source field to be used for partitioning
+// Hudi field to be added for partition purposes
 val hudiPartitionField					= "HUDI_PART_DATE";
 
 val targetBucket 							 	= "my-s3-targetBucket";
